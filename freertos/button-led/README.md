@@ -30,3 +30,11 @@ Below is short explanation of remaining files in the project folder.
 ```
 Additionally, the sample project contains Makefile and component.mk files, used for the legacy Make based build system. 
 They are not used or needed when building with CMake and idf.py.
+
+```
+press button:
+    1: Button press count reach multiple of 4 then GREEN LED toggle
+    2: Otherwise, Button press turn on GREEN LED
+    3: Button relesae make all leds off
+    4: BLUE LED ON-OFF state in idle system 
+```
