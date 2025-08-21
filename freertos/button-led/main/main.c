@@ -72,7 +72,7 @@ void app_main(void)
     while (1) 
     {
         //btn_prev_state = gpio_get_level(BTN_GPIO);
-        DebounceSwitch(&Key_changed, &Key_pressed);
+        //DebounceSwitch(&Key_changed, &Key_pressed);
 
         if(Key_changed == true && Key_pressed == true){
             /* Button is pressed. Turn on the GREEN */
